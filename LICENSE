@@ -19,20 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
--------------------------------------------------------------------------------
-IMPORTANT: THIRD-PARTY DATA LICENSES
-
-This license covers the code in this repository ONLY.
-
-This repository does NOT bundle third-party datasets. Data obtained via
-scripts/download_data.py remains under its ORIGINAL license, notably:
-
-  * EnzyExtractDB  -- code MIT, DATA CC BY-NC 4.0 (NON-COMMERCIAL)
-  * EnzyArena      -- MIT
-  * JackKuo gold   -- see the HuggingFace dataset card
-  * UniKP raw      -- see Zenodo record 14670386
-
-The CC BY-NC 4.0 terms on EnzyExtractDB forbid commercial use. Verify each
-source's terms before any commercial application. The derived summary
-statistics and audit results in this repository are our own work.
