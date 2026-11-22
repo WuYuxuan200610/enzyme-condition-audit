@@ -53,6 +53,20 @@ references:
     url: "https://github.com/zishuozeng/EnzyArena"
     notes: >-
       Source of the list-column variant data analysed in the hidden-data audit. MIT licensed.
+  - type: dataset
+    title: "LLM-Enzyme-Kinetics-Golden-Benchmark and LLM-Ribozyme-Kinetics-Golden-Benchmark"
+    authors:
+      - family-names: "Jiang"
+        given-names: "Jinling"
+      - family-names: "Qiu"
+        given-names: "Jiezhong"
+    year: 2025
+    url: "https://huggingface.co/datasets/jackkuo/LLM-Enzyme-Kinetics-Golden-Benchmark"
+    notes: >-
+      The human-annotated gold standard used for all capture-rate and recall
+      measurements in this repository (4,244 enzyme records from 156 papers).
+      Accompanying paper: "Enzyme Co-Scientist" (bioRxiv 2025.03.03.641178).
+      Please cite the original dataset and paper as well.
   - type: article
     title: "Auditing Haldane Consistency in Reversible Enzyme Kinetics: A Curated Two-Sided Backbone and a Labeled Fold-Error Benchmark"
     authors:
