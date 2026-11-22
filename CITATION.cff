@@ -16,6 +16,7 @@ authors:
     given-names: "Yuxuan"
 version: 0.1.0
 date-released: "2026-11-22"
+doi: "10.5281/zenodo.24443900"
 license: MIT
 keywords:
   - enzyme kinetics

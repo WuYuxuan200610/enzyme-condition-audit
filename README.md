@@ -4,6 +4,7 @@
 
 > Two problems in public enzyme-kinetics datasets: assay conditions are almost entirely missing, and a large amount of variant-level data is compressed into list columns instead of being exposed as rows.
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24443900.svg)](https://doi.org/10.5281/zenodo.24443900)
 [![License: MIT](https://img.shields.io/badge/Code-MIT-green.svg)](LICENSE)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
 
@@ -194,17 +195,21 @@ python scripts/check_sampling_bias.py    # ⚠️ 采样偏差复核
 
 ## 引用（Citation）
 
-本仓库提供 [`CITATION.cff`](CITATION.cff)。在 GitHub 发布 Release 并在 Zenodo 授权后，Zenodo 会为该 Release 生成 DOI（需自行在 [zenodo.org](https://zenodo.org/account/settings/github/) 完成授权）。
+本仓库已归档至 Zenodo，可直接引用：
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24443900.svg)](https://doi.org/10.5281/zenodo.24443900)
 
 ```bibtex
-@misc{wu2026enzymeconditionaudit,
-  title  = {Enzyme Condition Audit: missing assay conditions and hidden variant
-            data in public enzyme kinetics datasets},
-  author = {Wu, Yuxuan},
-  year   = {2026},
-  note   = {Version 0.1.0},
-  url    = {https://github.com/WuYuxuan200610/enzyme-condition-audit}
+@software{wu2026enzymeconditionaudit,
+  title     = {Enzyme Condition Audit: missing assay conditions and hidden
+               variant data in public enzyme kinetics datasets},
+  author    = {Wu, Yuxuan},
+  year      = {2026},
+  version   = {v0.1.0},
+  doi       = {10.5281/zenodo.24443900},
+  url       = {https://doi.org/10.5281/zenodo.24443900},
+  publisher = {Zenodo}
 }
 ```
 
-引用本仓库时，请同时引用原始数据来源（EnzyExtract、EnzyArena、JackKuo），详见 `CITATION.cff` 的 `references` 段。
+引用本仓库时，请同时引用原始数据来源（EnzyExtract、EnzyArena、JackKuo），详见 [`CITATION.cff`](CITATION.cff) 的 `references` 段。
