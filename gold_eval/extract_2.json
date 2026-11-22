@@ -1,0 +1,42 @@
+[
+  {
+    "pmcid": "PMC4046141",
+    "pH_values": [8.0],
+    "temperature_values": [20, 30, 50, 90],
+    "buffer_systems": ["HEPES-KOH"],
+    "ion_species": ["EDTA"],
+    "has_buffer_recipe": true
+  },
+  {
+    "pmcid": "PMC4190269",
+    "pH_values": [6.5, 7.0],
+    "temperature_values": [4, 22, 25, 30, 37],
+    "buffer_systems": ["phosphate", "KH2PO4"],
+    "ion_species": ["NaCl"],
+    "has_buffer_recipe": true
+  },
+  {
+    "pmcid": "PMC4270386",
+    "pH_values": [6.0, 6.5, 7.0, 7.5, 7.9, 8.0, 8.5, 9.0, 9.5],
+    "temperature_values": [4, 22, 37],
+    "buffer_systems": ["Tris-HCl", "Tris", "MES", "AMeP"],
+    "ion_species": ["NaCl"],
+    "has_buffer_recipe": true
+  },
+  {
+    "pmcid": "PMC4303309",
+    "pH_values": [5, 5.2, 5.5, 5.6, 5.7, 6, 6.5, 6.6, 6.8, 6.9, 7, 7.13, 7.38, 7.4, 7.85, 8, 8.14, 8.46, 8.5, 8.6, 8.7, 8.78, 9, 9.1, 9.14, 9.61, 9.7, 9.8, 10, 10.07, 10.1, 10.43],
+    "temperature_values": [-80, -24, 4, 19, 20, 25, 30, 37],
+    "buffer_systems": ["phosphate-citrate", "citrate-phosphate", "phosphate", "potassium phosphate", "Tris-HCl", "Tris-maleate", "borate", "Ches", "glycine"],
+    "ion_species": ["NaCl", "K2HPO4", "Na2HPO4", "NH4Cl", "CuCl2", "CoNO3", "ZnO", "H3BO3", "EDTA", "NaClO2", "NaClO3", "KNO3", "KClO4"],
+    "has_buffer_recipe": true
+  },
+  {
+    "pmcid": "PMC4323659",
+    "pH_values": [5.6, 7.5, 8, 8.3, 8.5],
+    "temperature_values": [20, 25, 50, 70, 80, 90, 128],
+    "buffer_systems": ["HEPES", "sodium HEPES", "Bicine", "sodium phosphate", "Tris", "sodium citrate"],
+    "ion_species": ["NaCl", "CoCl2", "ferric chloride", "ammonium sulfate", "ammonium dihydrogen phosphate", "guanidinium chloride"],
+    "has_buffer_recipe": true
+  }
+]

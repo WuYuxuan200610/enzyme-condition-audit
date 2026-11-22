@@ -1,0 +1,64 @@
+{
+  "gold_true_ids": [
+    1,
+    11
+  ],
+  "cases": [
+    "真冲突20×",
+    "不可比pH2.0",
+    "不可比温度20°C",
+    "不可比宿主",
+    "不可比底物",
+    "不可比参数类型",
+    "不可比离子强度10×",
+    "不可比缓冲液",
+    "需复核数值5×",
+    "一致1.5×",
+    "真冲突15×",
+    "需复核pH0.6"
+  ],
+  "baselines": {
+    "Blank LLM (no SKILL)": {
+      "metrics": {
+        "tp": 2,
+        "fp": 1,
+        "tn": 9,
+        "fn": 0,
+        "accuracy": 0.9167,
+        "precision": 0.6667,
+        "recall": 1.0,
+        "f1": 0.8,
+        "false_conflicts": 1,
+        "missed_conflicts": 0
+      }
+    },
+    "Simple Prompt (2 dims)": {
+      "metrics": {
+        "tp": 2,
+        "fp": 2,
+        "tn": 8,
+        "fn": 0,
+        "accuracy": 0.8333,
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6667,
+        "false_conflicts": 2,
+        "missed_conflicts": 0
+      }
+    },
+    "This Skill (v2 R0-R9)": {
+      "metrics": {
+        "tp": 2,
+        "fp": 0,
+        "tn": 10,
+        "fn": 0,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "false_conflicts": 0,
+        "missed_conflicts": 0
+      }
+    }
+  }
+}

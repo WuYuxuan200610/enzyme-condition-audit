@@ -1,0 +1,20 @@
+{
+  "n_test": 235,
+  "n_returned": 235,
+  "coverage": 1.0,
+  "field_nonnull": {
+    "buffer_system": 16,
+    "buffer_concentration_mM": 10,
+    "pH": 19,
+    "ions": 10,
+    "reducing_agents": 1,
+    "expression_host": 4,
+    "substrate_conc_range": 16,
+    "cofactors": 32,
+    "temperature_C": 13
+  },
+  "n_no_cond_keyword": 168,
+  "n_suspected_overfire": 3,
+  "n_buffer_extracted": 16,
+  "n_buffer_keyword_but_null": 52
+}

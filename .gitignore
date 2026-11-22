@@ -1,0 +1,27 @@
+﻿# 第三方数据（请用 scripts/download_data.py 获取，勿提交）
+data_raw/
+**/data_raw/
+
+# 含论文原文片段的中间产物与抓取的版权全文（可由流水线重新生成）
+condition_gap/testset.jsonl
+condition_gap/merged.json
+**/condition_gap/testset.jsonl
+**/condition_gap/merged.json
+gold_eval/papers/
+**/gold_eval/papers/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+*.log

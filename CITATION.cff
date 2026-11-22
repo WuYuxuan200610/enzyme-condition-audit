@@ -1,0 +1,65 @@
+cff-version: 1.2.0
+message: "If you use this software or the audit results, please cite it as below."
+title: "Enzyme Condition Audit: missing assay conditions and hidden variant data in public enzyme kinetics datasets"
+abstract: >-
+  A quantified audit of EnzyExtractDB (176,463 records) showing 0.0% coverage
+  of the 'solution' (buffer) field and no fields at all for ionic strength,
+  expression host, or substrate concentration - while 90% of papers do report
+  buffer compositions. Also documents that ~13x more variant-level data is
+  compressed into list columns than is exposed as rows in public enzyme
+  datasets. Includes a condition-completer prototype (LLM extraction +
+  deterministic ionic-strength computation) and a gold-standard evaluation
+  (pH recall 98.0%, temperature 97.3%).
+type: software
+authors:
+  - family-names: "Wu"
+    given-names: "Yuxuan"
+version: 0.1.0
+date-released: "2026-11-22"
+license: MIT
+keywords:
+  - enzyme kinetics
+  - assay conditions
+  - EnzyExtract
+  - ionic strength
+  - literature extraction
+  - variant data
+  - data quality
+  - reproducibility
+repository-code: "https://github.com/WuYuxuan200610/enzyme-condition-audit"
+references:
+  - type: article
+    title: "Finding the dark matter: Large language model-based enzyme kinetic data extractor and its validation"
+    authors:
+      - family-names: "Wei"
+        given-names: "Galen"
+      - family-names: "Ran"
+        given-names: "Xinchun"
+      - family-names: "Al-Abssi"
+        given-names: "Runeem"
+      - family-names: "Yang"
+        given-names: "Zhongyue"
+    journal: "Protein Science"
+    volume: 34
+    issue: 9
+    start: e70251
+    year: 2025
+    doi: "10.1002/pro.70251"
+    notes: >-
+      Source of EnzyExtractDB. Code MIT / data CC BY-NC 4.0 (non-commercial).
+  - type: dataset
+    title: "EnzyArena benchmarking datasets"
+    year: 2026
+    url: "https://github.com/zishuozeng/EnzyArena"
+    notes: >-
+      Source of the list-column variant data analysed in the hidden-data audit. MIT licensed.
+  - type: article
+    title: "Auditing Haldane Consistency in Reversible Enzyme Kinetics: A Curated Two-Sided Backbone and a Labeled Fold-Error Benchmark"
+    authors:
+      - family-names: "Simons"
+        given-names: "M."
+      - family-names: "Washburn"
+        given-names: "Jonathan"
+    year: 2026
+    url: "https://arxiv.org/html/2607.02784v1"
+    notes: "Source of the twofold fold-error calibration and the semi-synthetic benchmark method."

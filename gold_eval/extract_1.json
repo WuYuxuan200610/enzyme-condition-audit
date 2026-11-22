@@ -1,0 +1,42 @@
+[
+  {
+    "pmcid": "PMC3913438",
+    "pH_values": [4.0, 4.5, 5.0, 5.4, 6.0, 7.4, 7.5, 7.6, 8.8],
+    "temperature_values": [4, 23, 28, 33, 37, 55, 60],
+    "buffer_systems": ["Tris-HCl", "HEPES", "acetate buffer"],
+    "ion_species": ["NaCl", "MgCl2", "MnCl2", "CaCl2", "EDTA"],
+    "has_buffer_recipe": true
+  },
+  {
+    "pmcid": "PMC4015748",
+    "pH_values": [8.0],
+    "temperature_values": [30, 37, 60],
+    "buffer_systems": ["Tris-HCl", "sodium phosphate"],
+    "ion_species": ["NaCl", "ZnCl2", "ZnSO4", "EDTA"],
+    "has_buffer_recipe": true
+  },
+  {
+    "pmcid": "PMC3864932",
+    "pH_values": [7.0, 7.4, 8.0, 9.0],
+    "temperature_values": [-20, 22, 24, 37],
+    "buffer_systems": ["Tris-HCl", "potassium phosphate"],
+    "ion_species": ["EDTA", "sodium dithionite", "NaOH"],
+    "has_buffer_recipe": true
+  },
+  {
+    "pmcid": "PMC3958920",
+    "pH_values": [4.0, 4.5, 6.0, 6.5, 7.0, 8.0, 8.5, 9.0, 10.0, 10.5],
+    "temperature_values": [-25, 4, 8, 18, 30, 37],
+    "buffer_systems": ["potassium phosphate", "sodium phosphate", "Tris-HCl", "glycine-NaOH", "acetate-NaOH", "sodium citrate"],
+    "ion_species": ["NaCl", "KH2PO4", "K2HPO4", "sodium citrate", "sodium malate"],
+    "has_buffer_recipe": true
+  },
+  {
+    "pmcid": "PMC4045322",
+    "pH_values": [7.5, 7.9, 8.0, 8.3, 8.5],
+    "temperature_values": [-80, 0, 30],
+    "buffer_systems": ["Hepes", "Bicine", "Tris"],
+    "ion_species": ["NaCl", "MgCl2", "MnCl2", "CdCl2", "ZnCl2", "Zn(OAc)2"],
+    "has_buffer_recipe": true
+  }
+]

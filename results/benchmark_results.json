@@ -1,0 +1,422 @@
+{
+  "Blank Agent (no SKILL)": {
+    "tp": 4,
+    "fp": 12,
+    "tn": 2,
+    "fn": 0,
+    "n": 18,
+    "accuracy": 0.3333,
+    "precision": 0.25,
+    "recall": 1.0,
+    "f1": 0.4,
+    "false_conflicts": 12,
+    "per_case": [
+      {
+        "case": "真冲突-条件完全相同",
+        "pred": "冲突",
+        "gold": "真冲突",
+        "claim": true,
+        "correct": true
+      },
+      {
+        "case": "真冲突-pH差0.2",
+        "pred": "冲突",
+        "gold": "真冲突",
+        "claim": true,
+        "correct": true
+      },
+      {
+        "case": "真冲突-温度差8°C",
+        "pred": "冲突",
+        "gold": "真冲突",
+        "claim": true,
+        "correct": true
+      },
+      {
+        "case": "真冲突-温度差10°C边界",
+        "pred": "冲突",
+        "gold": "真冲突",
+        "claim": true,
+        "correct": true
+      },
+      {
+        "case": "伪矛盾-pH差2.0",
+        "pred": "冲突",
+        "gold": "不可比",
+        "claim": true,
+        "correct": false
+      },
+      {
+        "case": "伪矛盾-温度差20°C",
+        "pred": "冲突",
+        "gold": "不可比",
+        "claim": true,
+        "correct": false
+      },
+      {
+        "case": "伪矛盾-pH+温度双重不可比",
+        "pred": "冲突",
+        "gold": "不可比",
+        "claim": true,
+        "correct": false
+      },
+      {
+        "case": "伪矛盾-温度差12°C",
+        "pred": "冲突",
+        "gold": "不可比",
+        "claim": true,
+        "correct": false
+      },
+      {
+        "case": "伪矛盾-宿主不同",
+        "pred": "冲突",
+        "gold": "不可比",
+        "claim": true,
+        "correct": false
+      },
+      {
+        "case": "伪矛盾-底物不同",
+        "pred": "冲突",
+        "gold": "不可比",
+        "claim": true,
+        "correct": false
+      },
+      {
+        "case": "伪矛盾-酶形式不同",
+        "pred": "冲突",
+        "gold": "不可比",
+        "claim": true,
+        "correct": false
+      },
+      {
+        "case": "伪矛盾-表观vs真值",
+        "pred": "冲突",
+        "gold": "不可比",
+        "claim": true,
+        "correct": false
+      },
+      {
+        "case": "部分可比-pH差0.6",
+        "pred": "冲突",
+        "gold": "部分可比",
+        "claim": true,
+        "correct": false
+      },
+      {
+        "case": "部分可比-缓冲液不同",
+        "pred": "冲突",
+        "gold": "部分可比",
+        "claim": true,
+        "correct": false
+      },
+      {
+        "case": "部分可比-底物浓度比50×",
+        "pred": "冲突",
+        "gold": "部分可比",
+        "claim": true,
+        "correct": false
+      },
+      {
+        "case": "部分可比-辅因子不同",
+        "pred": "冲突",
+        "gold": "部分可比",
+        "claim": true,
+        "correct": false
+      },
+      {
+        "case": "一致-数值接近(1.2×)",
+        "pred": "一致",
+        "gold": "一致",
+        "claim": false,
+        "correct": true
+      },
+      {
+        "case": "一致-数值差1.6×低于阈值",
+        "pred": "一致",
+        "gold": "一致",
+        "claim": false,
+        "correct": true
+      }
+    ]
+  },
+  "Simple Prompt (2 dims)": {
+    "tp": 4,
+    "fp": 8,
+    "tn": 6,
+    "fn": 0,
+    "n": 18,
+    "accuracy": 0.5556,
+    "precision": 0.3333,
+    "recall": 1.0,
+    "f1": 0.5,
+    "false_conflicts": 8,
+    "per_case": [
+      {
+        "case": "真冲突-条件完全相同",
+        "pred": "冲突",
+        "gold": "真冲突",
+        "claim": true,
+        "correct": true
+      },
+      {
+        "case": "真冲突-pH差0.2",
+        "pred": "冲突",
+        "gold": "真冲突",
+        "claim": true,
+        "correct": true
+      },
+      {
+        "case": "真冲突-温度差8°C",
+        "pred": "冲突",
+        "gold": "真冲突",
+        "claim": true,
+        "correct": true
+      },
+      {
+        "case": "真冲突-温度差10°C边界",
+        "pred": "冲突",
+        "gold": "真冲突",
+        "claim": true,
+        "correct": true
+      },
+      {
+        "case": "伪矛盾-pH差2.0",
+        "pred": "不可比",
+        "gold": "不可比",
+        "claim": false,
+        "correct": true
+      },
+      {
+        "case": "伪矛盾-温度差20°C",
+        "pred": "不可比",
+        "gold": "不可比",
+        "claim": false,
+        "correct": true
+      },
+      {
+        "case": "伪矛盾-pH+温度双重不可比",
+        "pred": "不可比",
+        "gold": "不可比",
+        "claim": false,
+        "correct": true
+      },
+      {
+        "case": "伪矛盾-温度差12°C",
+        "pred": "不可比",
+        "gold": "不可比",
+        "claim": false,
+        "correct": true
+      },
+      {
+        "case": "伪矛盾-宿主不同",
+        "pred": "冲突",
+        "gold": "不可比",
+        "claim": true,
+        "correct": false
+      },
+      {
+        "case": "伪矛盾-底物不同",
+        "pred": "冲突",
+        "gold": "不可比",
+        "claim": true,
+        "correct": false
+      },
+      {
+        "case": "伪矛盾-酶形式不同",
+        "pred": "冲突",
+        "gold": "不可比",
+        "claim": true,
+        "correct": false
+      },
+      {
+        "case": "伪矛盾-表观vs真值",
+        "pred": "冲突",
+        "gold": "不可比",
+        "claim": true,
+        "correct": false
+      },
+      {
+        "case": "部分可比-pH差0.6",
+        "pred": "冲突",
+        "gold": "部分可比",
+        "claim": true,
+        "correct": false
+      },
+      {
+        "case": "部分可比-缓冲液不同",
+        "pred": "冲突",
+        "gold": "部分可比",
+        "claim": true,
+        "correct": false
+      },
+      {
+        "case": "部分可比-底物浓度比50×",
+        "pred": "冲突",
+        "gold": "部分可比",
+        "claim": true,
+        "correct": false
+      },
+      {
+        "case": "部分可比-辅因子不同",
+        "pred": "冲突",
+        "gold": "部分可比",
+        "claim": true,
+        "correct": false
+      },
+      {
+        "case": "一致-数值接近(1.2×)",
+        "pred": "一致",
+        "gold": "一致",
+        "claim": false,
+        "correct": true
+      },
+      {
+        "case": "一致-数值差1.6×低于阈值",
+        "pred": "一致",
+        "gold": "一致",
+        "claim": false,
+        "correct": true
+      }
+    ]
+  },
+  "This Skill (R0-R7)": {
+    "tp": 4,
+    "fp": 0,
+    "tn": 14,
+    "fn": 0,
+    "n": 18,
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "false_conflicts": 0,
+    "per_case": [
+      {
+        "case": "真冲突-条件完全相同",
+        "pred": "真冲突",
+        "gold": "真冲突",
+        "claim": true,
+        "correct": true
+      },
+      {
+        "case": "真冲突-pH差0.2",
+        "pred": "真冲突",
+        "gold": "真冲突",
+        "claim": true,
+        "correct": true
+      },
+      {
+        "case": "真冲突-温度差8°C",
+        "pred": "真冲突",
+        "gold": "真冲突",
+        "claim": true,
+        "correct": true
+      },
+      {
+        "case": "真冲突-温度差10°C边界",
+        "pred": "真冲突",
+        "gold": "真冲突",
+        "claim": true,
+        "correct": true
+      },
+      {
+        "case": "伪矛盾-pH差2.0",
+        "pred": "不可比",
+        "gold": "不可比",
+        "claim": false,
+        "correct": true
+      },
+      {
+        "case": "伪矛盾-温度差20°C",
+        "pred": "不可比",
+        "gold": "不可比",
+        "claim": false,
+        "correct": true
+      },
+      {
+        "case": "伪矛盾-pH+温度双重不可比",
+        "pred": "不可比",
+        "gold": "不可比",
+        "claim": false,
+        "correct": true
+      },
+      {
+        "case": "伪矛盾-温度差12°C",
+        "pred": "不可比",
+        "gold": "不可比",
+        "claim": false,
+        "correct": true
+      },
+      {
+        "case": "伪矛盾-宿主不同",
+        "pred": "不可比",
+        "gold": "不可比",
+        "claim": false,
+        "correct": true
+      },
+      {
+        "case": "伪矛盾-底物不同",
+        "pred": "不可比",
+        "gold": "不可比",
+        "claim": false,
+        "correct": true
+      },
+      {
+        "case": "伪矛盾-酶形式不同",
+        "pred": "不可比",
+        "gold": "不可比",
+        "claim": false,
+        "correct": true
+      },
+      {
+        "case": "伪矛盾-表观vs真值",
+        "pred": "不可比",
+        "gold": "不可比",
+        "claim": false,
+        "correct": true
+      },
+      {
+        "case": "部分可比-pH差0.6",
+        "pred": "部分可比",
+        "gold": "部分可比",
+        "claim": false,
+        "correct": true
+      },
+      {
+        "case": "部分可比-缓冲液不同",
+        "pred": "部分可比",
+        "gold": "部分可比",
+        "claim": false,
+        "correct": true
+      },
+      {
+        "case": "部分可比-底物浓度比50×",
+        "pred": "部分可比",
+        "gold": "部分可比",
+        "claim": false,
+        "correct": true
+      },
+      {
+        "case": "部分可比-辅因子不同",
+        "pred": "部分可比",
+        "gold": "部分可比",
+        "claim": false,
+        "correct": true
+      },
+      {
+        "case": "一致-数值接近(1.2×)",
+        "pred": "一致",
+        "gold": "一致",
+        "claim": false,
+        "correct": true
+      },
+      {
+        "case": "一致-数值差1.6×低于阈值",
+        "pred": "一致",
+        "gold": "一致",
+        "claim": false,
+        "correct": true
+      }
+    ]
+  }
+}

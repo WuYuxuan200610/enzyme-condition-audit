@@ -1,0 +1,59 @@
+[
+  {
+    "pmcid": "PMC13722739",
+    "title": "Comparative analysis of production and kinetic assay conditions and parameters for SARS-CoV-2 main protease (Mpro): a systematic review.",
+    "records": [
+      {
+        "enzyme": "SARS-CoV-2 main protease (Mpro)",
+        "buffer_system": "Tris-HCl",
+        "buffer_concentration_mM": 20,
+        "pH": 7.5,
+        "ions": [{"ion": "NaCl", "conc_mM": 100}],
+        "reducing_agents": ["DTT 5 mM"],
+        "expression_host": null,
+        "substrate_conc_range": null,
+        "cofactors": null,
+        "temperature_C": null,
+        "km": "0.5 µM",
+        "kcat": "0.01 min-1"
+      }
+    ]
+  },
+  {
+    "pmcid": "PMC13436262",
+    "title": "Identification of key metabolic enzymes involved in the activation of obeldesivir and remdesivir.",
+    "records": [
+      {
+        "enzyme": "Creatine kinase MM (CKMM)",
+        "buffer_system": "HEPES",
+        "buffer_concentration_mM": 25,
+        "pH": 7.0,
+        "ions": [
+          {"ion": "NaCl", "conc_mM": 150},
+          {"ion": "MgCl2", "conc_mM": 10},
+          {"ion": "CaCl2", "conc_mM": 10}
+        ],
+        "reducing_agents": null,
+        "expression_host": null,
+        "substrate_conc_range": null,
+        "cofactors": [{"cofactor": "creatine phosphate", "conc_mM": 4}],
+        "temperature_C": 37
+      },
+      {
+        "enzyme": "Pyruvate kinase LR (PKLR)",
+        "buffer_system": "MES",
+        "buffer_concentration_mM": 100,
+        "pH": 6.5,
+        "ions": [
+          {"ion": "MgCl2", "conc_mM": 5},
+          {"ion": "KCl", "conc_mM": 20}
+        ],
+        "reducing_agents": null,
+        "expression_host": null,
+        "substrate_conc_range": null,
+        "cofactors": [{"cofactor": "phosphoenol pyruvate", "conc_mM": 1.25}],
+        "temperature_C": 37
+      }
+    ]
+  }
+]

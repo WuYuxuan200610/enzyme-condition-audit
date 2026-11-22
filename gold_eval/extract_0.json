@@ -1,0 +1,42 @@
+[
+  {
+    "pmcid": "PMC3017781",
+    "pH_values": [],
+    "temperature_values": [4, 30],
+    "buffer_systems": [],
+    "ion_species": [],
+    "has_buffer_recipe": false
+  },
+  {
+    "pmcid": "PMC3024981",
+    "pH_values": [7.5, 8.0],
+    "temperature_values": [4, 25, 37],
+    "buffer_systems": ["Tris-Cl", "potassium phosphate", "HEPES"],
+    "ion_species": ["KCl", "MgCl2", "NaCl", "ammonium sulfate"],
+    "has_buffer_recipe": true
+  },
+  {
+    "pmcid": "PMC3407115",
+    "pH_values": [6.0, 7.0, 7.5, 7.6, 8.5, 9.2, 9.5, 9.8, 10.8],
+    "temperature_values": [30],
+    "buffer_systems": ["Tris-HCl", "sodium phosphate", "Tris/acetate", "glycine/NaOH"],
+    "ion_species": ["MnCl2", "Mg2+", "Zn2+", "Fe2+", "Fe3+"],
+    "has_buffer_recipe": true
+  },
+  {
+    "pmcid": "PMC3468530",
+    "pH_values": [5, 6, 7, 7.3, 8, 8.3, 9, 10, 11],
+    "temperature_values": [-80, 4, 20, 25, 37, 55, 70, 80, 85, 90, 95],
+    "buffer_systems": ["HEPES", "CHES", "Bicine", "sodium phosphate", "phosphate"],
+    "ion_species": ["NaCl", "CoCl2", "ammonium sulfate", "guanidinium chloride"],
+    "has_buffer_recipe": true
+  },
+  {
+    "pmcid": "PMC3509593",
+    "pH_values": [6.0, 7.0],
+    "temperature_values": [-80, 10, 25, 37, 80, 100],
+    "buffer_systems": ["PIPES", "ammonium acetate"],
+    "ion_species": ["MgCl2"],
+    "has_buffer_recipe": true
+  }
+]

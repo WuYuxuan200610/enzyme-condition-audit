@@ -1,0 +1,19 @@
+{
+  "title": "v2 规则层 LLM 三基线测试集（领域共识金标签）",
+  "note": "覆盖 v2 新增维度：参数类型/离子强度/缓冲液/更紧 pH 带/数值三档(≤3一致,3-10需复核,>10真冲突)。金标签由 v2 规则语义+领域共识推导。",
+  "gold_true_conflict_ids": [1, 11],
+  "cases": [
+    {"id": 1, "gold": "真冲突", "a": "酶α 对底物X 的 kcat=100 s⁻¹，pH 7.0，30°C，E.coli，20 mM Tris-HCl", "b": "酶α 对底物X 的 kcat=2000 s⁻¹，pH 7.0，30°C，E.coli，20 mM Tris-HCl"},
+    {"id": 2, "gold": "不可比", "a": "酶α 对底物X 的 kcat=100 s⁻¹，pH 6.0，30°C，E.coli", "b": "酶α 对底物X 的 kcat=500 s⁻¹，pH 8.0，30°C，E.coli"},
+    {"id": 3, "gold": "不可比", "a": "酶α 对底物X 的 kcat=100 s⁻¹，pH 7.0，30°C，E.coli", "b": "酶α 对底物X 的 kcat=500 s⁻¹，pH 7.0，50°C，E.coli"},
+    {"id": 4, "gold": "不可比", "a": "酶α 对底物X 的 kcat=100 s⁻¹，pH 7.0，30°C，E.coli 表达", "b": "酶α 对底物X 的 kcat=500 s⁻¹，pH 7.0，30°C，酿酒酵母表达"},
+    {"id": 5, "gold": "不可比", "a": "酶α 对底物X 的 Km=5 mM，pH 7.0，30°C", "b": "酶α 对底物Y 的 Km=50 mM，pH 7.0，30°C"},
+    {"id": 6, "gold": "不可比", "a": "酶α 的 kcat=100 s⁻¹，pH 7.0，30°C", "b": "酶α 的 Vmax=500 µmol/min（未报酶浓度），pH 7.0，30°C"},
+    {"id": 7, "gold": "不可比", "a": "酶α 的 Km=5 mM，20 mM Tris-HCl，离子强度 0.05 M，pH 7.0，30°C", "b": "酶α 的 Km=50 mM，20 mM Tris-HCl，离子强度 0.5 M，pH 7.0，30°C"},
+    {"id": 8, "gold": "不可比", "a": "酶α 的 kcat=100 s⁻¹，20 mM Tris-HCl，pH 7.0，30°C", "b": "酶α 的 kcat=500 s⁻¹，50 mM HEPES，pH 7.0，30°C"},
+    {"id": 9, "gold": "需复核", "a": "酶α 的 kcat=100 s⁻¹，pH 7.0，30°C，E.coli，Tris-HCl", "b": "酶α 的 kcat=500 s⁻¹，pH 7.0，30°C，E.coli，Tris-HCl"},
+    {"id": 10, "gold": "一致", "a": "酶α 的 kcat=100 s⁻¹，pH 7.0，30°C，E.coli", "b": "酶α 的 kcat=150 s⁻¹，pH 7.0，30°C，E.coli"},
+    {"id": 11, "gold": "真冲突", "a": "酶α 的 kcat=100 s⁻¹，pH 7.0，30°C，E.coli，Tris-HCl", "b": "酶α 的 kcat=1500 s⁻¹，pH 7.1，30°C，E.coli，Tris-HCl"},
+    {"id": 12, "gold": "需复核", "a": "酶α 的 kcat=100 s⁻¹，pH 7.0，30°C，E.coli，Tris-HCl", "b": "酶α 的 kcat=500 s⁻¹，pH 7.6，30°C，E.coli，Tris-HCl"}
+  ]
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "pmcid": "PMC7752791",
+    "pH_values": [4, 6.5, 7, 7.4, 7.5, 8.0, 8.5, 9, 9.5, 10, 10.5, 11],
+    "temperature_values": [4, 20, 30, 35, 37, 60, 150, 250, 290, 325],
+    "buffer_systems": [
+      "phosphate-buffered saline",
+      "Bis-tris propane HCl",
+      "glycine-NaOH"
+    ],
+    "ion_species": [
+      "NaCl",
+      "CaCl2",
+      "AlCl3",
+      "MgCl2",
+      "CuCl2",
+      "MnCl2",
+      "ZnCl2",
+      "CoCl2"
+    ],
+    "has_buffer_recipe": true
+  },
+  {
+    "pmcid": "PMC8248431",
+    "pH_values": [3.0, 3.5, 4.0, 4.5, 5.0, 6.0, 6.5, 7.0, 7.3, 7.5, 8.0, 10.0],
+    "temperature_values": [4, 7, 17, 20, 25, 30, 37, 40, 80],
+    "buffer_systems": [
+      "potassium phosphate",
+      "phosphate",
+      "Tris/HCl",
+      "Britton-Robinson",
+      "sodium malonate",
+      "HEPES",
+      "MES",
+      "citrate",
+      "sodium citrate",
+      "citric/phosphate"
+    ],
+    "ion_species": [
+      "NaCl",
+      "MgSO4",
+      "MnSO4",
+      "KCN",
+      "ammonium sulfate",
+      "sodium dithionite",
+      "nickel chloride"
+    ],
+    "has_buffer_recipe": true
+  }
+]

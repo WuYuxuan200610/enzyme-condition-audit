@@ -1,0 +1,42 @@
+[
+  {
+    "pmcid": "PMC5454378",
+    "pH_values": [7.5, 8.0, 10.0],
+    "temperature_values": [4, 16, 50],
+    "buffer_systems": ["Tris-HCl", "Tris", "HEPES", "potassium phosphate"],
+    "ion_species": ["NaCl", "KCl", "MgCl2", "ZnSO4", "NaHCO3"],
+    "has_buffer_recipe": true
+  },
+  {
+    "pmcid": "PMC5517563",
+    "pH_values": [5.5, 7.0, 7.4, 7.5],
+    "temperature_values": [37, 45],
+    "buffer_systems": ["MES", "Tris-HCl", "Tris"],
+    "ion_species": ["NaCl", "MgCl2", "sodium phosphate", "sodium pyrophosphate"],
+    "has_buffer_recipe": true
+  },
+  {
+    "pmcid": "PMC5513132",
+    "pH_values": [7.4],
+    "temperature_values": [7, 17, 25, 27, 28, 37, 47, 57],
+    "buffer_systems": ["sodium phosphate", "Tris-HCl"],
+    "ion_species": ["NaCl", "MgSO4", "KCl", "KH2PO4", "CaCO3", "NaHCO3", "(NH4)2SO4"],
+    "has_buffer_recipe": true
+  },
+  {
+    "pmcid": "PMC5526877",
+    "pH_values": [5.8, 7.5],
+    "temperature_values": [4, 20, 37],
+    "buffer_systems": ["Tris", "Tris-HCl", "sodium citrate", "PBS"],
+    "ion_species": ["NaCl", "ammonium sulfate", "sodium citrate", "potassium sodium tartrate"],
+    "has_buffer_recipe": true
+  },
+  {
+    "pmcid": "PMC5531466",
+    "pH_values": [4.0, 4.5, 5.0, 6.0, 6.9, 7.3, 8.0, 8.5, 9.0, 9.5, 10.0, 11.0],
+    "temperature_values": [4, 20, 25, 37, 50, 60, 70, 80, 85, 90, 95, 100],
+    "buffer_systems": ["sodium phosphate", "sodium acetate", "Tris-HCl", "Tris", "glycine", "CAPS", "Citric-HEPES-CHES", "HEPES", "BisTris", "ACES", "ethanolamine", "CHES", "ammonium acetate"],
+    "ion_species": ["NaCl", "ammonium sulfate", "ammonium ferrous sulfate", "Fe2+", "Zn2+", "Mn2+"],
+    "has_buffer_recipe": true
+  }
+]

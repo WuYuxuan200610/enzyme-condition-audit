@@ -1,0 +1,365 @@
+{
+  "gold": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    true,
+    false,
+    false,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    true
+  ],
+  "cases": [
+    "真冲突-同条件",
+    "不可比-pH6vs8",
+    "不可比-温度30vs50",
+    "不可比-宿主",
+    "不可比-底物",
+    "不可比-酶形式",
+    "真冲突-pH7.0vs7.2",
+    "一致-1.2×",
+    "不可比-pH+温度",
+    "真冲突-温度25vs30",
+    "真冲突-pH7.0vs7.4",
+    "不可比-温度25vs38",
+    "需复核-pH7.0vs7.6",
+    "需复核-缓冲液",
+    "不可比-缺条件",
+    "需复核-底物浓度50×",
+    "一致-1.6×",
+    "真冲突-pH7.0vs7.2(复测)"
+  ],
+  "baselines": {
+    "Blank LLM (no SKILL)": {
+      "metrics": {
+        "tp": 2,
+        "fp": 1,
+        "tn": 12,
+        "fn": 3,
+        "n": 18,
+        "accuracy": 0.7778,
+        "precision": 0.6667,
+        "recall": 0.4,
+        "f1": 0.5,
+        "false_conflicts": 1,
+        "missed_conflicts": 3
+      },
+      "per_case": [
+        {
+          "case": "真冲突-同条件",
+          "gold": true,
+          "pred": true
+        },
+        {
+          "case": "不可比-pH6vs8",
+          "gold": false,
+          "pred": false
+        },
+        {
+          "case": "不可比-温度30vs50",
+          "gold": false,
+          "pred": false
+        },
+        {
+          "case": "不可比-宿主",
+          "gold": false,
+          "pred": false
+        },
+        {
+          "case": "不可比-底物",
+          "gold": false,
+          "pred": false
+        },
+        {
+          "case": "不可比-酶形式",
+          "gold": false,
+          "pred": false
+        },
+        {
+          "case": "真冲突-pH7.0vs7.2",
+          "gold": true,
+          "pred": false
+        },
+        {
+          "case": "一致-1.2×",
+          "gold": false,
+          "pred": false
+        },
+        {
+          "case": "不可比-pH+温度",
+          "gold": false,
+          "pred": false
+        },
+        {
+          "case": "真冲突-温度25vs30",
+          "gold": true,
+          "pred": false
+        },
+        {
+          "case": "真冲突-pH7.0vs7.4",
+          "gold": true,
+          "pred": false
+        },
+        {
+          "case": "不可比-温度25vs38",
+          "gold": false,
+          "pred": false
+        },
+        {
+          "case": "需复核-pH7.0vs7.6",
+          "gold": false,
+          "pred": false
+        },
+        {
+          "case": "需复核-缓冲液",
+          "gold": false,
+          "pred": false
+        },
+        {
+          "case": "不可比-缺条件",
+          "gold": false,
+          "pred": false
+        },
+        {
+          "case": "需复核-底物浓度50×",
+          "gold": false,
+          "pred": true
+        },
+        {
+          "case": "一致-1.6×",
+          "gold": false,
+          "pred": false
+        },
+        {
+          "case": "真冲突-pH7.0vs7.2(复测)",
+          "gold": true,
+          "pred": true
+        }
+      ]
+    },
+    "Simple Prompt (2 dims)": {
+      "metrics": {
+        "tp": 5,
+        "fp": 1,
+        "tn": 12,
+        "fn": 0,
+        "n": 18,
+        "accuracy": 0.9444,
+        "precision": 0.8333,
+        "recall": 1.0,
+        "f1": 0.9091,
+        "false_conflicts": 1,
+        "missed_conflicts": 0
+      },
+      "per_case": [
+        {
+          "case": "真冲突-同条件",
+          "gold": true,
+          "pred": true
+        },
+        {
+          "case": "不可比-pH6vs8",
+          "gold": false,
+          "pred": false
+        },
+        {
+          "case": "不可比-温度30vs50",
+          "gold": false,
+          "pred": false
+        },
+        {
+          "case": "不可比-宿主",
+          "gold": false,
+          "pred": false
+        },
+        {
+          "case": "不可比-底物",
+          "gold": false,
+          "pred": false
+        },
+        {
+          "case": "不可比-酶形式",
+          "gold": false,
+          "pred": false
+        },
+        {
+          "case": "真冲突-pH7.0vs7.2",
+          "gold": true,
+          "pred": true
+        },
+        {
+          "case": "一致-1.2×",
+          "gold": false,
+          "pred": false
+        },
+        {
+          "case": "不可比-pH+温度",
+          "gold": false,
+          "pred": false
+        },
+        {
+          "case": "真冲突-温度25vs30",
+          "gold": true,
+          "pred": true
+        },
+        {
+          "case": "真冲突-pH7.0vs7.4",
+          "gold": true,
+          "pred": true
+        },
+        {
+          "case": "不可比-温度25vs38",
+          "gold": false,
+          "pred": false
+        },
+        {
+          "case": "需复核-pH7.0vs7.6",
+          "gold": false,
+          "pred": true
+        },
+        {
+          "case": "需复核-缓冲液",
+          "gold": false,
+          "pred": false
+        },
+        {
+          "case": "不可比-缺条件",
+          "gold": false,
+          "pred": false
+        },
+        {
+          "case": "需复核-底物浓度50×",
+          "gold": false,
+          "pred": false
+        },
+        {
+          "case": "一致-1.6×",
+          "gold": false,
+          "pred": false
+        },
+        {
+          "case": "真冲突-pH7.0vs7.2(复测)",
+          "gold": true,
+          "pred": true
+        }
+      ]
+    },
+    "This Skill (R0-R7)": {
+      "metrics": {
+        "tp": 5,
+        "fp": 0,
+        "tn": 13,
+        "fn": 0,
+        "n": 18,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "false_conflicts": 0,
+        "missed_conflicts": 0
+      },
+      "per_case": [
+        {
+          "case": "真冲突-同条件",
+          "gold": true,
+          "pred": true
+        },
+        {
+          "case": "不可比-pH6vs8",
+          "gold": false,
+          "pred": false
+        },
+        {
+          "case": "不可比-温度30vs50",
+          "gold": false,
+          "pred": false
+        },
+        {
+          "case": "不可比-宿主",
+          "gold": false,
+          "pred": false
+        },
+        {
+          "case": "不可比-底物",
+          "gold": false,
+          "pred": false
+        },
+        {
+          "case": "不可比-酶形式",
+          "gold": false,
+          "pred": false
+        },
+        {
+          "case": "真冲突-pH7.0vs7.2",
+          "gold": true,
+          "pred": true
+        },
+        {
+          "case": "一致-1.2×",
+          "gold": false,
+          "pred": false
+        },
+        {
+          "case": "不可比-pH+温度",
+          "gold": false,
+          "pred": false
+        },
+        {
+          "case": "真冲突-温度25vs30",
+          "gold": true,
+          "pred": true
+        },
+        {
+          "case": "真冲突-pH7.0vs7.4",
+          "gold": true,
+          "pred": true
+        },
+        {
+          "case": "不可比-温度25vs38",
+          "gold": false,
+          "pred": false
+        },
+        {
+          "case": "需复核-pH7.0vs7.6",
+          "gold": false,
+          "pred": false
+        },
+        {
+          "case": "需复核-缓冲液",
+          "gold": false,
+          "pred": false
+        },
+        {
+          "case": "不可比-缺条件",
+          "gold": false,
+          "pred": false
+        },
+        {
+          "case": "需复核-底物浓度50×",
+          "gold": false,
+          "pred": false
+        },
+        {
+          "case": "一致-1.6×",
+          "gold": false,
+          "pred": false
+        },
+        {
+          "case": "真冲突-pH7.0vs7.2(复测)",
+          "gold": true,
+          "pred": true
+        }
+      ]
+    }
+  }
+}

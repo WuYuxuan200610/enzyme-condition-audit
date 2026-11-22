@@ -1,0 +1,11 @@
+{
+  "n_papers_compared": 37,
+  "pH_value_recall": 0.9804,
+  "pH_gold_total": 51,
+  "pH_hit_total": 50,
+  "T_value_recall": 0.973,
+  "T_gold_total": 37,
+  "T_hit_total": 36,
+  "buffer_papers": 23,
+  "buffer_found": 23
+}

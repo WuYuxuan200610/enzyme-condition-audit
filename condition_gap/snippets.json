@@ -1,0 +1,38 @@
+[
+  {
+    "pmcid": "PMC13722739",
+    "pmid": "42961523",
+    "title": "Comparative analysis of production and kinetic assay conditions and parameters for SARS-CoV-2 main protease (Mpro): a systematic review.",
+    "snippets": [
+      "Table 3 Enzymatic assay conditions and tag-free Mpro kinetic parameters Substrate Enzymatic assay buffer and temperature [Mpro] (nM) K m (µM) V max (nM/s) k cat (min −1 ) k cat /K m (s −1 M −1 ) Reference Dabcyl-KTSAVLQSGFRKME-Edans 20 mM Tris–HCl (pH 7,5), 100 mM NaCl, 5 mM DTT;"
+    ]
+  },
+  {
+    "pmcid": "PMC13436262",
+    "pmid": "42363837",
+    "title": "Identification of key metabolic enzymes involved in the activation of obeldesivir and remdesivir to the active triphosphate metabolite.",
+    "snippets": [
+      "For the biotransformation of GS-441524-DP to TP, we evaluated seven recombinant human phosphotransferases, including NM23H1 or nucleoside diphosphate kinase A (NDK A), NM23H2 or nucleoside diphosphate kinase B (NDK B), phosphoglycerate kinase (PGK), creatine kinase MM (CKMM), creatine kinase MB (CKMB), pyruvate kinase M2 (PKM2), and pyruvate kinase LR (PKLR).",
+      "Conversion of GS-441524-DP to GS-441524-TP Creatine kinase assay Phosphorylation of ADP and GS-441524-DP by creatine kinase MM (CKMM, R&amp;D Systems, Catalog# 9071-CK, Lot# DFKC0121081) and creatine kinase MB (CKMB, Sigma, Catalog# C0984, Lot# SLCN0124) was performed in reactions (50 mL) containing 2.5 nM CKMM or 10 nM CKMB and 4 mM creatine phosphate (phosphate donor) in 25 mM HEPES (pH 7.0), 150 mM NaCl, 10 mM MgCl 2 , and 10 mM CaCl 2 .",
+      "Pyruvate kinase assay Phosphorylation of ADP and GS-441524-DP by pyruvate kinase LR (PKLR, R&amp;D Systems, Catalog# 8659-PK, Lot# DEDZ0121111) and pyruvate kinase M2 (PKM2, R&amp;D Systems, Catalog# 7244-PK, Lot# DCFE0521121) was performed in reactions (50 mL) containing 1.25 nM PKLR or 1.0 nM PKM2 and 1.25 mM phosphoenol pyruvate (phosphate donor) in 100 mM MES (pH 6.5), 5 mM MgCl 2 , and 20 mM KCl."
+    ]
+  },
+  {
+    "pmcid": "PMC13705017",
+    "pmid": "42941875",
+    "title": "Recombinant Expression and Functional Analysis of GH2 β-Galactosidases Derived from &lt;i&gt;Lactobacillus delbrueckii&lt;/i&gt; subsp. &lt;i&gt;bulgaricus&lt;/",
+    "snippets": [
+      "The low Michaelis constant ( K m = 14.02 mM) for rLbLacZ lactase indicates its high functional substrate affinity for the natural substrate, which is in complete agreement with data in the literature [ 2 ], where the K m value for recombinant LbLacZ ranged from 11 to 15 mM.",
+      "The turnover number ( k cat ) was calculated using Equation (1): (1) k cat = V max /[E] t , where [E] t is the total molar concentration of the respective recombinant β-galactosidase in the reaction mixture."
+    ]
+  },
+  {
+    "pmcid": "PMC13576164",
+    "pmid": "42742056",
+    "title": "Two distinct alcohol dehydrogenase classes mediate bacterial 2-hydroxyethylphosphonate catabolism.",
+    "snippets": [
+      "In comparison to PhpC, PbfG was a much better HEP dehydrogenase, showing a ~27 times higher turnover number ( k cat = 10 s −1 ) and a ~300‐fold higher k cat / K M (88,500 M −1 s −1 ).",
+      "When testing potential inhibitors, the inhibition constant K i was estimated by fitting the data to Equation ( 2 ), which assumes a purely competitive inhibition pattern (Schiroli et al., 2013 ): (2) v i v 0 = K i K M + S 0 K i K M + S 0 + K M I where v i is the observed reaction rate, v 0 is the rate in the absence of inhibitor, [ I ] is the concentration of inhibitor, [ S ] 0 is the concentration of substrate, and K M is the Michaelis–Menten constant for HEP or AEP."
+    ]
+  }
+]

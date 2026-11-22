@@ -1,0 +1,141 @@
+[
+  {
+    "pmid": null,
+    "canonical": "PMC13722739",
+    "enzyme": "SARS-CoV-2 main protease (Mpro)",
+    "organism": null,
+    "kcat": "0.01 min-1",
+    "km": "0.5 µM",
+    "temperature": null,
+    "pH": 7.5,
+    "solution": "20 mM Tris-HCl (pH 7.5); 100 mM NaCl; ['DTT 5 mM']",
+    "buffer_system": "Tris-HCl",
+    "buffer_concentration_mM": 20,
+    "ionic_strength_M": 0.1,
+    "ionic_strength_basis": {
+      "ionic_strength_M": 0.1,
+      "basis": "I = 0.5 * Σ(ci*zi^2)",
+      "note": "lower bound; buffer self-contribution excluded",
+      "contributions": [
+        {
+          "ion": "NaCl",
+          "conc_mM": 100,
+          "ions": {
+            "Na+": 0.1,
+            "Cl-": 0.1
+          },
+          "contribution_M": 0.2
+        }
+      ]
+    },
+    "expression_host": null,
+    "substrate_conc_range": null,
+    "cofactors": null,
+    "_source_title": "Comparative analysis of production and kinetic assay conditions and pa"
+  },
+  {
+    "pmid": null,
+    "canonical": "PMC13436262",
+    "enzyme": "Creatine kinase MM (CKMM)",
+    "organism": null,
+    "kcat": null,
+    "km": null,
+    "temperature": 37,
+    "pH": 7.0,
+    "solution": "25 mM HEPES (pH 7.0); 150 mM NaCl; 10 mM MgCl2; 10 mM CaCl2",
+    "buffer_system": "HEPES",
+    "buffer_concentration_mM": 25,
+    "ionic_strength_M": 0.21,
+    "ionic_strength_basis": {
+      "ionic_strength_M": 0.21,
+      "basis": "I = 0.5 * Σ(ci*zi^2)",
+      "note": "lower bound; buffer self-contribution excluded",
+      "contributions": [
+        {
+          "ion": "NaCl",
+          "conc_mM": 150,
+          "ions": {
+            "Na+": 0.15,
+            "Cl-": 0.15
+          },
+          "contribution_M": 0.3
+        },
+        {
+          "ion": "MgCl2",
+          "conc_mM": 10,
+          "ions": {
+            "Mg2+": 0.01,
+            "Cl-": 0.02
+          },
+          "contribution_M": 0.06
+        },
+        {
+          "ion": "CaCl2",
+          "conc_mM": 10,
+          "ions": {
+            "Ca2+": 0.01,
+            "Cl-": 0.02
+          },
+          "contribution_M": 0.06
+        }
+      ]
+    },
+    "expression_host": null,
+    "substrate_conc_range": null,
+    "cofactors": [
+      {
+        "cofactor": "creatine phosphate",
+        "conc_mM": 4
+      }
+    ],
+    "_source_title": "Identification of key metabolic enzymes involved in the activation of "
+  },
+  {
+    "pmid": null,
+    "canonical": "PMC13436262",
+    "enzyme": "Pyruvate kinase LR (PKLR)",
+    "organism": null,
+    "kcat": null,
+    "km": null,
+    "temperature": 37,
+    "pH": 6.5,
+    "solution": "100 mM MES (pH 6.5); 5 mM MgCl2; 20 mM KCl",
+    "buffer_system": "MES",
+    "buffer_concentration_mM": 100,
+    "ionic_strength_M": 0.035,
+    "ionic_strength_basis": {
+      "ionic_strength_M": 0.035,
+      "basis": "I = 0.5 * Σ(ci*zi^2)",
+      "note": "lower bound; buffer self-contribution excluded",
+      "contributions": [
+        {
+          "ion": "MgCl2",
+          "conc_mM": 5,
+          "ions": {
+            "Mg2+": 0.005,
+            "Cl-": 0.01
+          },
+          "contribution_M": 0.03
+        },
+        {
+          "ion": "KCl",
+          "conc_mM": 20,
+          "ions": {
+            "K+": 0.02,
+            "Cl-": 0.02
+          },
+          "contribution_M": 0.04
+        }
+      ]
+    },
+    "expression_host": null,
+    "substrate_conc_range": null,
+    "cofactors": [
+      {
+        "cofactor": "phosphoenol pyruvate",
+        "conc_mM": 1.25
+      }
+    ],
+    "_source_title": "Identification of key metabolic enzymes involved in the activation of "
+  }
+]

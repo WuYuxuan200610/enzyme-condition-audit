@@ -1,0 +1,484 @@
+{
+  "PMC3017781": {
+    "pmid": "20670441",
+    "n_gold_records": 20,
+    "gold_pH": [],
+    "gold_temp": [],
+    "gold_buffer_strings": []
+  },
+  "PMC3024981": {
+    "pmid": "21283685",
+    "n_gold_records": 36,
+    "gold_pH": [
+      7.5
+    ],
+    "gold_temp": [
+      37.0
+    ],
+    "gold_buffer_strings": [
+      "G3P",
+      "R5P"
+    ]
+  },
+  "PMC3407115": {
+    "pmid": "22848751",
+    "n_gold_records": 21,
+    "gold_pH": [
+      7.5
+    ],
+    "gold_temp": [],
+    "gold_buffer_strings": []
+  },
+  "PMC3468530": {
+    "pmid": "23071703",
+    "n_gold_records": 50,
+    "gold_pH": [],
+    "gold_temp": [
+      25.0,
+      70.0
+    ],
+    "gold_buffer_strings": [
+      "cobalt"
+    ]
+  },
+  "PMC3509593": {
+    "pmid": "23203077",
+    "n_gold_records": 26,
+    "gold_pH": [
+      7.0
+    ],
+    "gold_temp": [
+      37.0
+    ],
+    "gold_buffer_strings": [
+      "ATP",
+      "FMN"
+    ]
+  },
+  "PMC3913438": {
+    "pmid": "24092883",
+    "n_gold_records": 60,
+    "gold_pH": [
+      4.5,
+      6.0
+    ],
+    "gold_temp": [
+      37.0
+    ],
+    "gold_buffer_strings": []
+  },
+  "PMC4015748": {
+    "pmid": "24119501",
+    "n_gold_records": 99,
+    "gold_pH": [
+      8.0
+    ],
+    "gold_temp": [
+      37.0
+    ],
+    "gold_buffer_strings": []
+  },
+  "PMC3864932": {
+    "pmid": "24358164",
+    "n_gold_records": 49,
+    "gold_pH": [
+      8.0
+    ],
+    "gold_temp": [
+      37.0
+    ],
+    "gold_buffer_strings": [
+      "DCPIP 100 Î¼M",
+      "O2 in air-saturated buffer"
+    ]
+  },
+  "PMC3958920": {
+    "pmid": "24649405",
+    "n_gold_records": 23,
+    "gold_pH": [
+      6.5,
+      7.0,
+      10.0,
+      10.5
+    ],
+    "gold_temp": [],
+    "gold_buffer_strings": [
+      "NADH",
+      "NADPH",
+      "NADP^+",
+      "NAD^+"
+    ]
+  },
+  "PMC4045322": {
+    "pmid": "24832101",
+    "n_gold_records": 31,
+    "gold_pH": [
+      8.3
+    ],
+    "gold_temp": [
+      30.0
+    ],
+    "gold_buffer_strings": []
+  },
+  "PMC4046141": {
+    "pmid": "24884441",
+    "n_gold_records": 28,
+    "gold_pH": [
+      8.0
+    ],
+    "gold_temp": [
+      30.0
+    ],
+    "gold_buffer_strings": [
+      "APAL",
+      "BAL",
+      "NAD^+"
+    ]
+  },
+  "PMC4190269": {
+    "pmid": "25296188",
+    "n_gold_records": 24,
+    "gold_pH": [
+      6.5
+    ],
+    "gold_temp": [
+      25.0
+    ],
+    "gold_buffer_strings": [
+      "1,4-BQ",
+      "DCPIP",
+      "Fc^+",
+      "Oxygen"
+    ]
+  },
+  "PMC4270386": {
+    "pmid": "25406072",
+    "n_gold_records": 48,
+    "gold_pH": [
+      8.0
+    ],
+    "gold_temp": [
+      22.0
+    ],
+    "gold_buffer_strings": [
+      "300 mM Tris-HCl (pH 8.0), 150 Î¼M DTNB, 1.0 mM tyramine",
+      "300 mM Tris-HCl pH 8.0, 150 Î¼M DTNB, 500 Î¼M acetyl-CoA"
+    ]
+  },
+  "PMC4303309": {
+    "pmid": "25437493",
+    "n_gold_records": 2,
+    "gold_pH": [
+      5.0,
+      5.2
+    ],
+    "gold_temp": [
+      4.0,
+      20.0
+    ],
+    "gold_buffer_strings": []
+  },
+  "PMC4323659": {
+    "pmid": "25670483",
+    "n_gold_records": 23,
+    "gold_pH": [
+      6.5,
+      8.0,
+      8.3
+    ],
+    "gold_temp": [
+      40.0,
+      50.0,
+      70.0
+    ],
+    "gold_buffer_strings": [
+      "CoCl2",
+      "MnCl2"
+    ]
+  },
+  "PMC4334965": {
+    "pmid": "25692488",
+    "n_gold_records": 56,
+    "gold_pH": [
+      7.5
+    ],
+    "gold_temp": [
+      37.0
+    ],
+    "gold_buffer_strings": [
+      "5 mM MnCl2"
+    ]
+  },
+  "PMC4390882": {
+    "pmid": "25775277",
+    "n_gold_records": 22,
+    "gold_pH": [
+      7.5
+    ],
+    "gold_temp": [
+      37.0
+    ],
+    "gold_buffer_strings": []
+  },
+  "PMC4314829": {
+    "pmid": "25852984",
+    "n_gold_records": 38,
+    "gold_pH": [],
+    "gold_temp": [],
+    "gold_buffer_strings": []
+  },
+  "PMC4476818": {
+    "pmid": "25884328",
+    "n_gold_records": 35,
+    "gold_pH": [
+      7.0,
+      9.5
+    ],
+    "gold_temp": [],
+    "gold_buffer_strings": [
+      "NAD^+"
+    ]
+  },
+  "PMC4495429": {
+    "pmid": "26154028",
+    "n_gold_records": 6,
+    "gold_pH": [
+      7.5,
+      11.0
+    ],
+    "gold_temp": [
+      50.0
+    ],
+    "gold_buffer_strings": []
+  },
+  "PMC4861830": {
+    "pmid": "27242840",
+    "n_gold_records": 3,
+    "gold_pH": [
+      7.0
+    ],
+    "gold_temp": [
+      30.0,
+      35.0,
+      40.0
+    ],
+    "gold_buffer_strings": [
+      "Mg^2+"
+    ]
+  },
+  "PMC5009329": {
+    "pmid": "27587230",
+    "n_gold_records": 14,
+    "gold_pH": [
+      7.5
+    ],
+    "gold_temp": [
+      50.0
+    ],
+    "gold_buffer_strings": [
+      "NADP^+",
+      "NAD^+"
+    ]
+  },
+  "PMC5314407": {
+    "pmid": "28209966",
+    "n_gold_records": 35,
+    "gold_pH": [
+      7.5
+    ],
+    "gold_temp": [
+      25.0
+    ],
+    "gold_buffer_strings": []
+  },
+  "PMC6250432": {
+    "pmid": "28236663",
+    "n_gold_records": 4,
+    "gold_pH": [
+      7.0
+    ],
+    "gold_temp": [
+      25.0
+    ],
+    "gold_buffer_strings": [
+      "NADH",
+      "menadione"
+    ]
+  },
+  "PMC5396282": {
+    "pmid": "28450969",
+    "n_gold_records": 105,
+    "gold_pH": [
+      7.5,
+      7.8
+    ],
+    "gold_temp": [
+      30.0
+    ],
+    "gold_buffer_strings": []
+  },
+  "PMC5454378": {
+    "pmid": "28516954",
+    "n_gold_records": 4,
+    "gold_pH": [
+      8.0
+    ],
+    "gold_temp": [],
+    "gold_buffer_strings": [
+      "N/A"
+    ]
+  },
+  "PMC5517563": {
+    "pmid": "28724909",
+    "n_gold_records": 23,
+    "gold_pH": [
+      5.5,
+      7.0,
+      7.5
+    ],
+    "gold_temp": [
+      37.0,
+      45.0
+    ],
+    "gold_buffer_strings": [
+      "ADP",
+      "ATP",
+      "AcP",
+      "Acetate",
+      "PPi",
+      "Pi"
+    ]
+  },
+  "PMC5513132": {
+    "pmid": "28725265",
+    "n_gold_records": 18,
+    "gold_pH": [
+      7.4
+    ],
+    "gold_temp": [
+      37.0
+    ],
+    "gold_buffer_strings": [
+      "Hexadecanol (C16:0-OH)"
+    ]
+  },
+  "PMC5526877": {
+    "pmid": "28743924",
+    "n_gold_records": 2,
+    "gold_pH": [
+      7.5
+    ],
+    "gold_temp": [
+      37.0
+    ],
+    "gold_buffer_strings": []
+  },
+  "PMC5531466": {
+    "pmid": "28750065",
+    "n_gold_records": 25,
+    "gold_pH": [
+      9.5
+    ],
+    "gold_temp": [
+      37.0
+    ],
+    "gold_buffer_strings": []
+  },
+  "PMC5614712": {
+    "pmid": "28955773",
+    "n_gold_records": 40,
+    "gold_pH": [
+      7.2
+    ],
+    "gold_temp": [
+      25.0
+    ],
+    "gold_buffer_strings": [
+      "20 mM HEPES (pH 7.2), 100 mM KCl, 2 mM MgCl2ï¼100â200 Î¼M ATP, 15 Î¼M NADH, 15 Î¼M phosphoenolpyruvate, 0.5 mU of lactate dehydrogenase, 0.5 mU of pyruvate kinase"
+    ]
+  },
+  "PMC5784979": {
+    "pmid": "29370288",
+    "n_gold_records": 113,
+    "gold_pH": [
+      8.0
+    ],
+    "gold_temp": [
+      37.0
+    ],
+    "gold_buffer_strings": [
+      "DCPIP"
+    ]
+  },
+  "PMC5986058": {
+    "pmid": "29928580",
+    "n_gold_records": 34,
+    "gold_pH": [
+      8.0
+    ],
+    "gold_temp": [
+      25.0
+    ],
+    "gold_buffer_strings": []
+  },
+  "PMC6414531": {
+    "pmid": "30862918",
+    "n_gold_records": 10,
+    "gold_pH": [],
+    "gold_temp": [],
+    "gold_buffer_strings": [
+      "La^3+",
+      "Nd^3+",
+      "noLn"
+    ]
+  },
+  "PMC6506529": {
+    "pmid": "31068633",
+    "n_gold_records": 24,
+    "gold_pH": [
+      7.0
+    ],
+    "gold_temp": [
+      30.0
+    ],
+    "gold_buffer_strings": [
+      "FAD, NADH"
+    ]
+  },
+  "PMC7752791": {
+    "pmid": "33346890",
+    "n_gold_records": 21,
+    "gold_pH": [
+      6.5,
+      7.0,
+      7.5,
+      8.5,
+      9.0,
+      10.5
+    ],
+    "gold_temp": [
+      30.0
+    ],
+    "gold_buffer_strings": [
+      "3-DHQ",
+      "3-DHS",
+      "Quinate",
+      "Shikimate"
+    ]
+  },
+  "PMC8248431": {
+    "pmid": "33369202",
+    "n_gold_records": 23,
+    "gold_pH": [
+      3.0,
+      4.0
+    ],
+    "gold_temp": [
+      25.0
+    ],
+    "gold_buffer_strings": [
+      "ABTS",
+      "H2O2"
+    ]
+  }
+}

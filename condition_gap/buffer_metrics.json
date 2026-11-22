@@ -1,0 +1,12 @@
+{
+  "n": 235,
+  "tp": 12,
+  "fp": 4,
+  "fn": 1,
+  "tn": 218,
+  "accuracy": 0.9787,
+  "precision": 0.75,
+  "recall": 0.9231,
+  "f1": 0.8276,
+  "gold_note": "gold proxy = regex signature (concentration + buffer name); not a hand-annotated gold set"
+}

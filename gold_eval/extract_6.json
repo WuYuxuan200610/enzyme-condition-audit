@@ -1,0 +1,42 @@
+[
+  {
+    "pmcid": "PMC5614712",
+    "pH_values": [7.2],
+    "temperature_values": [25.0],
+    "buffer_systems": ["HEPES", "Tris-HCl", "BICINE"],
+    "ion_species": ["KCl", "MgCl2", "NaCl"],
+    "has_buffer_recipe": true
+  },
+  {
+    "pmcid": "PMC5784979",
+    "pH_values": [8.0],
+    "temperature_values": [37.0],
+    "buffer_systems": ["Tris-HCl", "Tris", "sodium phosphate"],
+    "ion_species": ["NaCl", "Na2MoO4"],
+    "has_buffer_recipe": true
+  },
+  {
+    "pmcid": "PMC5986058",
+    "pH_values": [8.0],
+    "temperature_values": [25.0],
+    "buffer_systems": ["sodium phosphate", "NaPi", "potassium phosphate", "sodium tetraborate"],
+    "ion_species": ["NaCl"],
+    "has_buffer_recipe": true
+  },
+  {
+    "pmcid": "PMC6414531",
+    "pH_values": [],
+    "temperature_values": [],
+    "buffer_systems": ["Tris-HCl"],
+    "ion_species": ["NaCl", "LaCl3", "NdCl3"],
+    "has_buffer_recipe": true
+  },
+  {
+    "pmcid": "PMC6506529",
+    "pH_values": [7.0],
+    "temperature_values": [30.0],
+    "buffer_systems": ["KPi", "potassium phosphate", "HEPES", "sodium cacodylate"],
+    "ion_species": ["NaCl", "CaCl2", "MgSO4", "magnesium acetate"],
+    "has_buffer_recipe": true
+  }
+]
