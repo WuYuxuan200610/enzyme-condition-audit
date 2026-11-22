@@ -48,12 +48,26 @@ references:
     doi: "10.1002/pro.70251"
     notes: >-
       Source of EnzyExtractDB. Code MIT / data CC BY-NC 4.0 (non-commercial).
-  - type: dataset
-    title: "EnzyArena benchmarking datasets"
+  - type: article
+    title: "Benchmarking and Experimental Validation of Machine Learning Strategies for Enzyme Engineering"
+    authors:
+      - family-names: "Zeng"
+        given-names: "Zishuo"
+      - family-names: "Jin"
+        given-names: "Jiong"
+      - family-names: "Xu"
+        given-names: "Rui"
+      - family-names: "Wu"
+        given-names: "Yang"
+      - family-names: "Luo"
+        given-names: "Xiao"
+    journal: "Journal of Chemical Information and Modeling"
     year: 2026
     url: "https://github.com/zishuozeng/EnzyArena"
     notes: >-
-      Source of the list-column variant data analysed in the hidden-data audit. MIT licensed.
+      Source of the list-column variant data analysed in the hidden-data audit.
+      Code MIT licensed; condition-controlled datasets for benchmarking in
+      silico enzyme-evolution tools.
   - type: dataset
     title: "LLM-Enzyme-Kinetics-Golden-Benchmark and LLM-Ribozyme-Kinetics-Golden-Benchmark"
     authors:
