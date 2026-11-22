@@ -160,7 +160,7 @@ python scripts/run_demo.py
 
 **EnzyExtractDB 使用 CC BY-NC 4.0，禁止商业用途。** 若用于商业场景，请自行确认各数据源的许可条款。仓库内的派生统计与审计结论为本仓库的原创工作。
 
-各第三方数据的具体许可条款、来源与对应论文，另见 [`NOTICE`](NOTICE)。
+各第三方数据的具体许可条款、来源与对应论文，另见 [`THIRD_PARTY_LICENSES.md`](THIRD_PARTY_LICENSES.md)。
 
 ---
 
